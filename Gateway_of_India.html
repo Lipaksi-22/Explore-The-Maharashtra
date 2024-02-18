@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Explore The maharashtra</title>
+  <link rel="icon" href="icon.png" type="image/x-icon">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    /* Importing Poppins font from Google Fonts */
+    body {
+      font-family:'Poppins', Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-image: url("image/sky.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    
+    h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 48px;
+      font-weight: bold;
+      color:  #f76700;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      animation: pulsate 2s infinite;
+    }
+
+    .tagline {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 24px;
+      color: #34495e;
+      margin-bottom: 40px;
+      animation: flicker 2s infinite;
+      
+    }
+
+    h2 {
+      
+      text-align: center;
+      font-size: 30px;
+      color: #2a328b; /* Blue color */
+      text-decoration: underline;
+      margin-bottom: 10px;
+      
+      
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 20px;
+      color: #15005a; /* Green color */
+      margin-bottom: 5px;
+      animation: bounce 1s infinite;
+    }
+    
+    h4 {
+      text-align:left ;
+      color: #15005a;
+      
+
+    }
+   
+    @keyframes pulsate {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    
+   
+    @keyframes flicker {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+    }
+    
+   
+    
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-10px);
+      }
+      60% {
+        transform: translateY(-5px);
+      }
+    }
+    
+
+    .booking-section {
+      background-color: #f9e67a;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .place {
+      position: relative;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      transition: box-shadow 0.3s;
+    }
+
+    .slideshow {
+      position: relative;
+      height: 800px; /* Adjust the height as needed */
+      overflow: inherit;
+    }
+
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .slide.active {
+      opacity: 1;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .place-content {
+      flex-grow: 1;
+      margin-top: 20px; /* Add a margin to create space below the slideshow */
+      text-align: center;
+    }
+    .place:hover .place-content {
+      transform: translateY(0);
+    }
+    .booking-heading {
+      font-size: 24px;
+      color: #ff9500;
+      margin-top: 0;
+    }
+
+    .booking-description {
+      font-size: 16px;
+      color: #555555;
+    }
+
+    .booking-form {
+      margin-top: 20px;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .book-now-button {
+      background-color: #ff9500;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .book-now-button:hover {
+      background-color: #ffac33;
+    }
+
+    .testimonial {
+      font-size: 14px;
+      color: #555555;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Explore The Mahabharata</h1>
+  <p class="tagline">Uncover the Beauty and Diversity</p>
+  <h2>Mumbai</h2>
+  <h2>Gateway of India</h2>
+  <div class="place">
+    <div class="slideshow">
+      <div class="slide active">
+        <img src="image/gate6.jpg" alt="Photo 1">
+      </div>
+      <div class="slide">
+        <img src="image/gate7.jpg" alt="Photo 2">
+      </div>
+      <div class="slide">
+        <img src="image/03.jpg" alt="Photo 3">
+      </div>
+      <div class="slide">
+        <img src="image/04.jpg" alt="Photo 4">
+      </div>
+      <div class="slide">
+        <img src="image/05.jpg" alt="Photo 5">
+       
+      </div>
+      <!-- Add more slides here -->
+    </div>
+    <div class="place-content">
+      <h2>Gateway of India</h2>
+      <p>Gateway of India, the best place to visit in Mumbai, was built in 1924 by George Willet to honor the visit of King George V and Queen Mary to Mumbai. Visit this place in the early morning or late evening hours to enjoy the cool breeze of the sea with your family sans the crowd. Located next to the iconic Taj Mahal Palace and facing the vast Arabian Sea, the Gateway of India leaves you spellbound in every way possible.</p>
+      <ul>
+        Take a ferry ride offered here to experience a stupendous view of this monument right from the sea.
+       <p> Enjoy the beauty of this iconic monument which is often called the Taj Mahal of Mumbai.</p>
+       <h3>Best time to visit</h3>
+        <p>The best time to visit Gateway of India is between October and March post monsoon. <b>Gateway of India is open 24 hours for public</b>, and. it is around 2.5 km far from Chhatrapati Shivaji Terminal and 2.4 km from Churchgate Railway Station.</p>
+      </ul>
+      <h2>How to reach the Gateway of India ?</h2>
+      <h4>From Airport</h4>
+      <p>There are two ways for you to commute between Airport and Gateway of India –</p>
+      <h4>Train, Bus –</h4>
+      <p>First, you need to reach Vile Parle Railway Terminus from Chhatrapati Shivaji International Airport. You may either opt for a bus or hire an auto rickshaw or cab to drop you there. Next, get a ticket for CST via Dadar and board the local train running in the direction of Churchgate. From Dadar, you need to board a train to CST and get down at the last stop. From CST bus terminus, board a bus to drop you at Old Customs House. Thereby, you need to walk for the next 15 minutes until you reach Gateway of India.</p>
+      <h4>Taxi Drive –</h4>
+      <p> Opt for a direct taxi drive to transfer you between Chhatrapati Shivaji International Airport and Gateway of India. You will be travelling for 20 minutes to cover the distance of 22.1 km. You can also prefer to self-drive between the Airport and Gateway of India.</p>
+        <h2>
+          <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.2124287743936!2d72.83207937356464!3d18.921989156792637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c73a0d5cad%3A0xc70a25a7209c733c!2sGateway%20Of%20India%20Mumbai!5e0!3m2!1sen!2sin!4v1685164009190!5m2!1sen!2sin" width="75%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><p>Find the perfect hotel near Gateway of India for your stay in Mumbai:</p></h2>
+      <h3>Hotels near 3 kms</h3>
+      <div>
+        <h3>Book a Hotel</h3>
+        <a href="https://www.booking.com/landmark/in/gateway-of-india.en.html?aid=314920;label=gateway-of-india-zupL3Dm7porTKq0X7hnXaAS553296973589:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4168692487:lp9040235:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YZnKoGAh3tLoA_MNQwn0RI8;ws=&gclid=CjwKCAjw9pGjBhB-EiwAa5jl3N_AG-HFzSm_jlrKxoy9T3u8nHRUiPEaVAH2S6WxVG9vyncjlA0AAxoCDI8QAvD_BwE" target="_blank">
+          <button class="book-now-button">Book Now</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script>
+    const slideshow = document.querySelector('.slideshow');
+    const slides = Array.from(document.querySelectorAll('.slide'));
+
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.classList.add('active');
+        } else {
+          slide.classList.remove('active');
+        }
+      });
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    function previousSlide() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    // Auto-play the slideshow
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds (adjust as needed)
+  </script>
+</body>
+</html>

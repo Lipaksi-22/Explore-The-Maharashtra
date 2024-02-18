@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Explore The महाराष्ट्र</title>
+  <link rel="icon" href="icon.png" type="image/x-icon">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    body {
+      font-family: 'Poppins',Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-image: url("image/back.avif");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 48px;
+      font-weight: bold;
+      color:  #f76700;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      animation: pulsate 2s infinite;
+    }
+
+    .tagline {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 24px;
+      color: #777777;
+      margin-bottom: 40px;
+      animation: flicker 2s infinite;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: transparent;
+      font-weight: bold;
+    }
+
+    td {
+      background-color: transparent;
+      color: #333333;
+    }
+
+
+    h2 {
+      text-align: center;
+      font-size: 30px;
+      color: #2a328b; /* Blue color */
+      text-decoration: underline;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      text-align: center;
+      color: #15005a; /* Green color */
+      margin-bottom: 5px;
+      animation: bounce 1s infinite;
+    }
+    
+    h4 {
+      text-align:left ;
+      color: #15005a;
+    }
+
+    .booking-section {
+      background-color: #f9e67a;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .place {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .slideshow {
+      position: relative;
+      height: 800px; /* Adjust the height as needed */
+      overflow: inherit;
+    }
+
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .slide.active {
+      opacity: 1;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    @keyframes pulsate {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    
+   
+    @keyframes flicker {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+    }
+    
+   
+    
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-10px);
+      }
+      60% {
+        transform: translateY(-5px);
+      }
+    }
+    
+
+
+    .place-content {
+      flex-grow: 1;
+      margin-top: 20px; /* Add a margin to create space below the slideshow */
+      text-align: center;
+    }
+
+    .booking-heading {
+      font-size: 24px;
+      color: #ff9500;
+      margin-top: 0;
+    }
+
+    .booking-description {
+      font-size: 16px;
+      color: #555555;
+    }
+
+    .booking-form {
+      margin-top: 20px;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .book-now-button {
+      background-color: #ff9500;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .book-now-button:hover {
+      background-color: #ffac33;
+    }
+
+    .testimonial {
+      font-size: 14px;
+      color: #555555;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Explore The Maharashtra</h1>
+  <p class="tagline">Uncover the Beauty and Diversity</p>
+  <h2>Mumbai</h2>
+  <h2>Marine Drive</h2>
+  <div class="place">
+    <div class="slideshow">
+      <div class="slide active">
+        <img src="image/marine.jpg" alt="Photo 1">
+      </div>
+      <div class="slide">
+        <img src="image/marine2.jpg" alt="Photo 2">
+      </div>
+      <div class="slide">
+        <img src="image/marine3.jpg" alt="Photo 3">
+      </div>
+      <div class="slide">
+        <img src="image/marine4.jpg" alt="Photo 4">
+      </div>
+      <div class="slide">
+        <img src="image/marine5.jpg" alt="Photo 5">
+       
+      </div>
+      <div class="slide">
+        <img src="image/Marine Drive, Mumbai, India.jpg" alt="Photo 4">
+      </div>
+      <div class="slide">
+        <img src="image/MDM.png" alt="Photo 4">
+      </div>
+      <div class="slide">
+        <img src="image/MD.jpg" alt="Photo 4">
+      </div>
+    </div>
+</div>
+</div>
+      <!-- Add more slides here -->
+    </div>
+    <div class="place-content">
+      <h2>Marine Drive</h2>
+      <p>Marine Drive, also called the Queen’s Necklace, is one of the most easily recognizable landmarks in Mumbai. This arc-shaped bay-side boulevard lining the Arabian Sea in South Mumbai is arguably the best spot to watch beautiful sunsets and indulge in leisurely walks. A favorite hangout spot of the Mumbaikars, it is a prime tourist attraction as well. When you step out of your hotels in Mumbai, make sure to explore this hotspot that offers splendid views of the city’s skyline.</p>
+      <ul>
+        
+        <p>Marine Drive is a C-shaped boulevard that features a six-lane concrete road lining the natural bay along South Mumbai. This 3.6 km long road flaunts the Art Deco architectural style through its buildings and edifices. This style is prominent in many celebrated bayside boulevards around the world, including the seafronts of Alexandria, Miami, and Havana. These buildings lining the Marine Drive, which became a part of Mumbai’s identity, include New India Assurance, Eros Cinema, Liberty Cinema, Keval Mahal, Zaver Mahal, Kapur Mahal, and the University of Mumbai, to mention a few.</p>
+        <p>Relish on some mouth-watering street food at the nearby stalls. Some of the recommended items to try are Vada Pav, Pav Bhaji, Misal Pav, Keema Pav, Sev Puri, Bhel Puri, Batata Vada, Sandwich, Ragda Pattice, Baida Roti, Kanda Poha, Frankie, Dabeli, and Pani Puri.</p>
+       <h3>Best time to visit</h3>
+        <p>It is a place that one can visit at any time of the day. But the best time to visit Marine Drive is <b>early in the morning or in the evening</b> . </p>
+     
+    </ul>
+      <table>
+        <tr>
+            <th>Location</th>
+            <td>Chowpatty, South Mumba</td>
+        </tr>
+        <tr>
+        <th>Timings</th>
+         <td>24×7</td>
+        </tr>
+        <tr>
+        <th>Entry Fee</th>
+        <td>Free</td>
+        </tr>
+        <tr>
+         <th>Still/Video Camera</th>
+         <td>Free</td>
+        </tr>
+      </table>
+      <h2>How to reach the Marine Drive ?</h2>
+      <h4>From Airport</h4>
+      <p>Marine Drive is located at a distance of 22.3 kilometers from Chhatrapati Shivaji International Airport. Upon reaching Mumbai Airport, you can either take a local train or taxi to reach your destination. If you board a train, it would take you about an hour to reach Marine Line railway station, from where you can reach your destination by auto or cab. However, if you take a taxi, you can reach Marine Drive in 20 minutes.</p>
+      
+        <h2>
+          <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.5380805266714!2d72.8142776735655!3d18.951829455862203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1e25ee8439d%3A0x5acd924f2726ad2b!2sMarine%20Dr%2C%20Charni%20Road%20East%2C%20Khandiwadi%2C%20Ambewadi%2C%20Girgaon%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1685163737242!5m2!1sen!2sin" width="75%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><p>Find the perfect hotel near Marine Drive for your stay in Mumbai:</p></h2>
+      <h3>Hotels near 3 kms</h3>
+      <div>
+        <h3>Book a Hotel</h3>
+        <a href="https://www.booking.com/landmark/in/marine-drive-queen-s-necklace-necklace-point.en.html?aid=314920;label=marine-drive-queen-s-necklace-necklace-point-wMeq7hXgYYGZvUxiivkqoQS275053809531:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-344602420270:lp9040235:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YZnKoGAh3tLoA_MNQwn0RI8;ws=&gclid=CjwKCAjwvJyjBhApEiwAWz2nLSLinx2F8gU6Bb1CurUc32W5O_COXCzoFSQzT2X12wD1yr-D33gKjhoCZcoQAvD_BwE" target="_blank">
+          <button class="book-now-button">Book Now</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script>
+    const slideshow = document.querySelector('.slideshow');
+    const slides = Array.from(document.querySelectorAll('.slide'));
+
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.classList.add('active');
+        } else {
+          slide.classList.remove('active');
+        }
+      });
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    function previousSlide() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    // Auto-play the slideshow
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds (adjust as needed)
+  </script>
+</body>
+</html>

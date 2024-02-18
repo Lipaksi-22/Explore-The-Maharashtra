@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Explore The महाराष्ट्र</title>
+  <link rel="icon" href="icon.png" type="image/x-icon">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    body {
+      font-family:'Poppins', Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-image: url("image/back.avif");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 48px;
+      font-weight: bold;
+      color:  #f76700;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      animation: pulsate 2s infinite;
+    }
+
+    .tagline {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 24px;
+      color: #777777;
+      margin-bottom: 40px;
+      animation: flicker 2s infinite;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: transparent;
+      font-weight: bold;
+    }
+
+    td {
+      background-color: transparent;
+      color: #333333;
+    }
+
+
+    h2 {
+      text-align: center;
+      font-size: 30px;
+      color: #2a328b; /* Blue color */
+      text-decoration: underline;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      text-align: center;
+      color: #15005a; /* Green color */
+      margin-bottom: 5px;
+      animation: bounce 1s infinite;
+    }
+    
+    h4 {
+      text-align:left ;
+      color: #15005a;
+    }
+
+    .booking-section {
+      background-color: #f9e67a;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .place {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .slideshow {
+      position: relative;
+      height: 800px; /* Adjust the height as needed */
+      overflow: inherit;
+    }
+
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .slide.active {
+      opacity: 1;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .place-content {
+      flex-grow: 1;
+      margin-top: 20px; /* Add a margin to create space below the slideshow */
+      text-align: center;
+    }
+    @keyframes pulsate {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    
+   
+    @keyframes flicker {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+    }
+    
+   
+    
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-10px);
+      }
+      60% {
+        transform: translateY(-5px);
+      }
+    }
+    
+
+    .booking-heading {
+      font-size: 24px;
+      color: #ff9500;
+      margin-top: 0;
+    }
+
+    .booking-description {
+      font-size: 16px;
+      color: #555555;
+    }
+
+    .booking-form {
+      margin-top: 20px;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .book-now-button {
+      background-color: #ff9500;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .book-now-button:hover {
+      background-color: #ffac33;
+    }
+
+    .testimonial {
+      font-size: 14px;
+      color: #555555;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Explore The Maharashtra</h1>
+  <p class="tagline">Uncover the Beauty and Diversity</p>
+  <h2>Mumbai</h2>
+  <h2>Karnala Bird Sanctuary</h2>
+  <div class="place">
+    <div class="slideshow">
+      <div class="slide active">
+        <img src="image/karnala1.jpg" alt="Photo 1">
+      </div>
+      <div class="slide">
+        <img src="image/kernala2.jpg" alt="Photo 2">
+      </div>
+      <div class="slide">
+        <img src="image/karnala3.jpg" alt="Photo 3">
+      </div>
+      <div class="slide">
+        <img src="image/karnala4.jpg" alt="Photo 4">
+      </div>
+      <div class="slide">
+        <img src="image/karnala5.jpg" alt="Photo 5">
+       
+      </div>
+      
+    </div>
+</div>
+</div>
+      <!-- Add more slides here -->
+    </div>
+    <div class="place-content">
+      <h2>Karnala Bird Sanctuary</h2>
+      <p>If you are a nature lover, this bird sanctuary will be the best Panvel tourist place for you for its admirable assortment of exotic plants and over 200 species of native & migratory birds. You can choose from interesting trails like Hariyal and Mortaka nature trails to sight birds like Malabar Lark, Small Sunbird, Nilgiri Woodpigeon, Slaty Legged Crake, etc.</p>
+      <ul>
+        
+        <p>Over 30 varieties of migratory birds like Bluethroat, Ashy Minivet, and Red-breasted Flycatcher visit the sanctuary each year.  </p>
+        <p>Don’t miss to see the colourful butterflies as you walk amidst the beautiful wilderness. If you visit during the monsoons, you can see many small ravines bubbling over with water accentuating the beauty of the sanctuary much more. The sanctuary also houses the ancient 12th-century Karnala Fort, which is a must-visit.</p>
+       
+    </ul>
+      <table>
+          <tr>
+           <th>location</th>
+           <td>Karnala Village, Raigad District, Maharashtra.
+          </td>
+          </tr>
+          <tr>
+              <th>Best time:</th>
+              <td>July- August, and October- February</td>
+          </tr>
+          <th>Timings</th>
+           <td>6:00 AM to 12:00 PM and 4:00 PM to 8:30 PM
+          </td>
+          </tr>
+        <tr>
+        <th>Price: </th>
+        <td>Entry fee per person: Rs. 35, Camera charges: Rs. 100</td>
+        </tr>
+      </table>
+      <h2>How to reach the Karnala Bird Sanctuary ?</h2>
+      <h4>By Air</h4>
+      <p>Chhatrapati Shivaji International Airport, Mumbai is the nearest airport to Karnala bird sanctuary. The airport is at a distance of around 60kms from Karnala bird sanctuary. One can hire a taxis or an auto-rickshaw to reach the bird sanctuary.</p>
+      <h4>By Train:</h4>
+      <p>Panvel, the nearest railhead, is a major station on the busy line between Mumbai and Roha and also on the Mumbai suburban line. Auto-rickshaws and taxis can be hired from the station to reach the sanctuary, 12 km away.</p>  
+      <h4>By Road </h4>
+      <p>Karnala is situated on the national highway 17 also called the Mumbai-Goa highway. State-run buses going towards Pen, Alibag, Murud, etc. stop at the sanctuary gate. However, don’t forget to check with the bus conductor as all buses don’t stop at the sanctuary. Share auto-rickshaws which ply regularly from Panvel to surrounding villages is also another means to reach Karnala. Taxis, from Mumbai, Navi Mumbai or Thane, can be hired to reach Karnala.</p>
+      <h2>
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.858641808829!2d73.11029277356369!3d18.893351257684326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e74786430a17%3A0xff3d39e03140a0d8!2sKarnala%20Bird%20Sanctuary!5e0!3m2!1sen!2sin!4v1685163913330!5m2!1sen!2sin" width="75%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><p>Find the perfect hotel near Karnala Bird Sanctuary for your stay in Mumbai:</p></h2>
+      <h3>Hotels near 5 kms</h3>
+      <div>
+        <h3>Book a Hotel</h3>
+        <a href="https://www.booking.com/searchresults.en-gb.html?aid=306395&label=karnala-0EsGtnXGiNy_S318E6B3hwS648896586372%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-146342137030%3Akwd-302225692704%3Alp9040235%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c&sid=a6f8fdf00d02f3cdf066f0e680ea33ed&city=-2099854&redirected=1&redirected_from_city=1&source=city&" target="_blank">
+          <button class="book-now-button">Book Now</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script>
+    const slideshow = document.querySelector('.slideshow');
+    const slides = Array.from(document.querySelectorAll('.slide'));
+
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.classList.add('active');
+        } else {
+          slide.classList.remove('active');
+        }
+      });
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    function previousSlide() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    // Auto-play the slideshow
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds (adjust as needed)
+  </script>
+</body>
+</html>

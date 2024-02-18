@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Explore The महाराष्ट्र</title>
+  <link rel="icon" href="icon.png" type="">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    body {
+      font-family:'Poppins', Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-image: url("image/back2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 48px;
+      font-weight: bold;
+      color:  #f76700;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      animation: pulsate 2s infinite;
+    }
+
+    .tagline {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 24px;
+      color: #777777;
+      margin-bottom: 40px;
+      animation: flicker 2s infinite;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: transparent;
+      font-weight: bold;
+    }
+
+    td {
+      background-color: transparent;
+      color: #333333;
+    }
+
+
+    h2 {
+      text-align: center;
+      font-size: 30px;
+      color: #2a328b; /* Blue color */
+      text-decoration: underline;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      text-align: center;
+      color: #15005a; /* Green color */
+      margin-bottom: 5px;
+      animation: bounce 1s infinite;
+    }
+    
+    h4 {
+      text-align:left ;
+      color: #15005a;
+    }
+
+    .booking-section {
+      background-color: #f9e67a;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .place {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .slideshow {
+      position: relative;
+      height: 800px; /* Adjust the height as needed */
+      overflow: inherit;
+    }
+
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .slide.active {
+      opacity: 1;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .place-content {
+      flex-grow: 1;
+      margin-top: 20px; /* Add a margin to create space below the slideshow */
+      text-align: center;
+    }
+    @keyframes pulsate {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    
+   
+    @keyframes flicker {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+    }
+    
+   
+    
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-10px);
+      }
+      60% {
+        transform: translateY(-5px);
+      }
+    }
+    
+
+
+    .booking-heading {
+      font-size: 24px;
+      color: #ff9500;
+      margin-top: 0;
+    }
+
+    .booking-description {
+      font-size: 16px;
+      color: #555555;
+    }
+
+    .booking-form {
+      margin-top: 20px;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .book-now-button {
+      background-color: #ff9500;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .book-now-button:hover {
+      background-color: #ffac33;
+    }
+
+    .testimonial {
+      font-size: 14px;
+      color: #555555;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Explore The Maharashtra</h1>
+  <p class="tagline">Uncover the Beauty and Diversity</p>
+  <h2>Mumbai</h2>
+  <h2>Sion Fort</h2>
+  <div class="place">
+    <div class="slideshow">
+      <div class="slide active">
+        <img src="image/sion1.jpg" alt="Photo 1">
+      </div>
+      <div class="slide">
+        <img src="image/sion2.jpg" alt="Photo 2">
+      </div>
+      <div class="slide">
+        <img src="image/sion3.jpg" alt="Photo 3">
+      </div>
+      <div class="slide">
+        <img src="image/sion4.jpg" alt="Photo 4">
+      </div>
+      <div class="slide">
+        <img src="image/sion5.jpg" alt="Photo 5">
+       
+      </div>
+      
+    </div>
+</div>
+</div>
+      <!-- Add more slides here -->
+    </div>
+    <div class="place-content">
+      <h2>Sion fort</h2>
+      <p>Surrounded by lush green lawns, Sion Fort is located on a hilltop which serves as a podium to it. It serves as a serene attraction in the middle of the city hustle. The fort is a picturesque architectural stone structure with square windows which presumably had cannons in the earlier times. There is a stairway which leads you to the original structure.</p>
+      <ul>
+        
+        <p>Sion Fort has a watchtower in the foreground. The fort is made secure with guards stationed at nook and crannies to protect the fort and avoid overcrowding. </p>
+        <p> The change in its outlook is quite evident, but it still holds its old charm. At the base of the hill is the Mumbai Circle office of the Archaeological Survey of India, and a garden â€“ Pandit Jawaharlal Nehru Udyan.</p>
+       <h3>Best time to visit</h3>
+        <p>It is a place that one can visit at any time of the day. But the best time to visit Marine Drive is <b>early in the morning or in the evening</b> . </p>
+     
+    </ul>
+      <table>
+        <tr>
+            <th></th>
+            <td></td>
+        </tr>
+        <tr>
+        <th>Timings</th>
+         <td>6:00 AM to 12:00 PM and 4:00 PM to 8:30 PM
+        </td>
+        </tr>
+        <tr>
+        <th>Entry Fee</th>
+        <td>Free</td>
+        </tr>
+        <tr>
+         <th></th>
+         <td></td>
+        </tr>
+      </table>
+      <h2>How to reach the Fort ?</h2>
+      
+      <p>The closest point to the fort is Rani Laxmibai Chowk / Sion is 592 meters away, 8 min walk. Followed by Central Labour Institute is 937 meters away, 13 min walk.</p>
+      <h4>By Train:</h4>
+      <p>To get to Sion Fort, take a train to Sion railway station and then walk up to the fort. The distance from Sion railway station is about 7 kilometres.</p>
+      <h4>By Bus:</h4>
+      <p>You can take a bus from different points of the city to get to the fort. The bus lines which stop near the fort are 180, 22 LTD, 305, 348 LTD, 351, 354.</p>  
+      <h4>Taxi: </h4>
+      <p>ou can take a cab from anywhere in the city to get to the fort directly. It is a convenient way, but it is time-consuming considering heavy traffic.</p>
+      <h2>
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.3897680605655!2d72.86510657356834!3d19.04659325289824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8cee87a9f77%3A0x662e461e1dd9a04b!2sShiv%20Fort!5e0!3m2!1sen!2sin!4v1685163480127!5m2!1sen!2sin" width="75%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><p>Find the perfect hotel near Sion Fort for your stay in Mumbai:</p></h2>
+      <h3>Hotels near 5 kms</h3>
+      <div>
+        <h3>Book a Hotel</h3>
+        <a href="https://www.makemytrip.com/hotels/hotels-in-sion-mumbai.html" target="_blank">
+          <button class="book-now-button">Book Now</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script>
+    const slideshow = document.querySelector('.slideshow');
+    const slides = Array.from(document.querySelectorAll('.slide'));
+
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.classList.add('active');
+        } else {
+          slide.classList.remove('active');
+        }
+      });
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    function previousSlide() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    // Auto-play the slideshow
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds (adjust as needed)
+  </script>
+</body>
+</html>

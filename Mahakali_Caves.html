@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Explore The महाराष्ट्र</title>
+  <link rel="icon" href="icon.png" type="image/x-icon">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    body {
+      font-family:'Poppins', Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-image: url("image/back.avif");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 48px;
+      font-weight: bold;
+      color:  #f76700;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      animation: pulsate 2s infinite;
+    }
+
+    .tagline {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 24px;
+      color: #777777;
+      margin-bottom: 40px;
+      animation: flicker 2s infinite;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 30px;
+      color: #2a328b; /* Blue color */
+      text-decoration: underline;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      text-align: center;
+      color: #15005a; /* Green color */
+      margin-bottom: 5px;
+      animation: bounce 1s infinite;
+    }
+    h4 {
+        text-align: center;
+        color: #15005a;
+    }
+
+    .booking-section {
+      background-color: #f9e67a;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .place {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .slideshow {
+      position: relative;
+      height: 800px; /* Adjust the height as needed */
+      overflow: inherit;
+    }
+
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .slide.active {
+      opacity: 1;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .place-content {
+      flex-grow: 1;
+      margin-top: 20px; /* Add a margin to create space below the slideshow */
+      text-align: center;
+    }
+    @keyframes pulsate {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    
+   
+    @keyframes flicker {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+    }
+    
+   
+    
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-10px);
+      }
+      60% {
+        transform: translateY(-5px);
+      }
+    }
+    
+
+
+    .booking-heading {
+      font-size: 24px;
+      color: #ff9500;
+      margin-top: 0;
+    }
+
+    .booking-description {
+      font-size: 16px;
+      color: #555555;
+    }
+
+    .booking-form {
+      margin-top: 20px;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .book-now-button {
+      background-color: #ff9500;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .book-now-button:hover {
+      background-color: #ffac33;
+    }
+
+    .testimonial {
+      font-size: 14px;
+      color: #555555;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Explore The महाराष्ट्र</h1>
+  <p class="tagline">Uncover the Beauty and Diversity</p>
+  <h2>Mumbai</h2>
+  <h2>Mahakali Caves</h2>
+  <div class="place">
+    <div class="slideshow">
+      <div class="slide active">
+        <img src="image/maha.jpg" alt="Photo 1">
+      </div>
+      <div class="slide">
+        <img src="image/maha1.jpg" alt="Photo 2">
+      </div>
+      <div class="slide">
+        <img src="image/maha2.jpg" alt="Photo 3">
+      </div>
+      <div class="slide">
+        <img src="image/maha3.jpg" alt="Photo 4">
+      </div>
+      <div class="slide">
+        <img src="image/maha4.jpg" alt="Photo 5">
+      </div>
+      <div class="slide">
+        <img src="image/maha5.jpg" alt="Photo 5">
+      </div>
+      
+      <!-- Add more slides here -->
+    </div>
+    <div class="place-content">
+      <h2>Mahakali Caves</h2>
+      <p>Mahakali Caves, also known as Kondivite Caves, are centuries old and are located in the western part of the city of Mumbai in Andheri. Mahakali Caves comprise a total of nineteen rock-cut monuments, built between 1st and 6th century. The main cave consists of Buddha figures and stupas and there are several Buddha idols carved on the rocks too. These solid basalt caves are a favourite place for history lovers, and archaeologists. Surprisingly clean and efficiently maintained, the caves are far from the city area hence give a sense of serenity.</p>
+      <ul>
+        Beautifully carved out of solid black basalt rock, the caves exist since the Ashokan Empire. The existence of a Buddhist Stupa indicates the dwelling of Buddhist monks here. The walls contain scriptures in Pali, a language older than Sanskrit.
+       <p>  A majority of the caves are on a low-lying hill, rising only a few meters above the surroundings. Since the caves are carved in volcanic trap breccias, they are prone to weathering. The caves are small in size and contain numerous rock-cut cisterns. Though the images today are not clearly visible, the Mahakali caves are indeed one of the most beautiful specimens of the rock-cut monastery.</p>
+       
+      </ul>
+     <h3>Best time to visit</h3>
+        <p>The best time to visit the Mahakali Caves in Mumbai, India is from <b>October to March</b>, during the winter months. During this time, the weather is cool and pleasant, making it ideal for outdoor activities like hiking and trekking.
+        </p>
+        <p>The Timings for Mahakali, Mumbai are from <b>07:30 AM to 05:30 PM</b>. The park is open throughout the week and the timings remain unchanged every day.
+        </p>
+    </ul>
+      <h2>How to reach Mahakali Caves ?</h2>
+      <h4>From Airport:</h4>
+      <p> Mumbai airport is just 6 KM away from the Mahakali Caves. You can easily hire a cab or an auto-rickshaw to reach the caves. The autos have a meter system to charge you so you need not worry about the bills. Whereas you can also book your cab online as there is a good flow of online taxis too.</p>
+       
+        <h2>
+          <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.4884492863353!2d72.87059887357088!3d19.130084850275566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c82074c3942f%3A0x20ac48d1ab4e8ed7!2sMahakali%20Caves!5e0!3m2!1sen!2sin!4v1685163839393!5m2!1sen!2sin" width="75%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><p>Find the perfect hotel near Mahakali Caves Park for your stay in Mumbai:</p></h2>
+      <h3>Hotels near 3 kms</h3>
+      <div>
+        <h3>Book a Hotel</h3>
+        <a href="https://www.makemytrip.com/hotels/mumbai-hotels-near-mahakali_caves.html" target="_blank">
+          <button class="book-now-button">Book Now</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script>
+    const slideshow = document.querySelector('.slideshow');
+    const slides = Array.from(document.querySelectorAll('.slide'));
+
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.classList.add('active');
+        } else {
+          slide.classList.remove('active');
+        }
+      });
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    function previousSlide() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    // Auto-play the slideshow
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds (adjust as needed)
+  </script>
+</body>
+</html>

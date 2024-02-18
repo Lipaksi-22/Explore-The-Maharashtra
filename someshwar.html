@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Explore The Maharashtra</title>
+  <link rel="icon" href="icon.png" type="image/x-icon">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    body {
+      font-family:'Poppins', Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-image: url("image/back.avif");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 48px;
+      font-weight: bold;
+      color:  #f76700;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      animation: pulsate 2s infinite;
+    }
+
+    .tagline {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 24px;
+      color: #777777;
+      margin-bottom: 40px;
+      animation: flicker 2s infinite;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 30px;
+      color: #2a328b; /* Blue color */
+      text-decoration: underline;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      text-align: center;
+      color: #15005a; /* Green color */
+      margin-bottom: 5px;
+      animation: bounce 1s infinite;
+    }
+    h4 {
+        text-align: center;
+        color: #15005a;
+    }
+
+    .booking-section {
+      background-color: #f9e67a;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .place {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .slideshow {
+      position: relative;
+      height: 800px; /* Adjust the height as needed */
+      overflow: inherit;
+    }
+
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .slide.active {
+      opacity: 1;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    @keyframes pulsate {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    
+   
+    @keyframes flicker {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+    }
+    
+   
+    
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-10px);
+      }
+      60% {
+        transform: translateY(-5px);
+      }
+    }
+    
+
+    .place-content {
+      flex-grow: 1;
+      margin-top: 20px; /* Add a margin to create space below the slideshow */
+      text-align: center;
+    }
+
+    .booking-heading {
+      font-size: 24px;
+      color: #ff9500;
+      margin-top: 0;
+    }
+
+    .booking-description {
+      font-size: 16px;
+      color: #555555;
+    }
+
+    .booking-form {
+      margin-top: 20px;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .book-now-button {
+      background-color: #ff9500;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .book-now-button:hover {
+      background-color: #ffac33;
+    }
+
+    .testimonial {
+      font-size: 14px;
+      color: #555555;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Explore The Maharashtra</h1>
+  <p class="tagline">Uncover the Beauty and Diversity</p>
+  <h2>Nashik</h2>
+  <h2>Someshwar Temple</h2>
+  <div class="place">
+    <div class="slideshow">
+      <div class="slide active">
+        <img src="image/someshwar-river-safari.jpg" alt="Photo 1">
+      </div>
+      <div class="slide">
+        <img src="image/someshwar-temple.jpg" alt="Photo 2">
+      </div>
+      <div class="slide">
+        <img src="image/someshwar.jpg" alt="Photo 3">
+      </div>
+      <div class="slide">
+        <img src="image/someshwar2.jpg" alt="Photo 4">
+      </div>
+      <div class="slide">
+        <img src="image/someshwar2.jpg" alt="Photo 5">
+      </div>
+      <!-- Add more slides here -->
+    </div>
+    <div class="place-content">
+      <h2>Someshwar temple</h2>
+      <p>his is one of the bigger temples of Shiva located on the banks of Godavari. It has a serene campus and one entrance is from the riverside. There is a small waterfall near the river called Someshwar waterfall. The place near the fall is littered with garbage and needs the attention of authorities. It has the potential to develop into a very nice picnic spot.</p>
+      <ul>
+        This is one of the bigger temples of Shiva located on the banks of Godavari. It has a serene campus and one entrance is from the riverside. There is a small waterfall near the river called Someshwar waterfall. The place near the fall is littered with garbage and needs the attention of authorities. It has the potential to develop into a very nice picnic spot.
+
+
+       <p> This is nice temple, located on banks of Godatwari river. This temple is surrounded by beautiful nature. Nice place to relax in nature. You also take river safari by boat. Must visit this place.</p>
+        <p>pleasant place in nashik</p>
+
+      </ul>
+     <h3>Best time to visit</h3>
+        <p>The best time to visit in rainy season  <b>October to April</b>. However, August to November is the best time to spot the shivratri</p>
+        <p>The Timings for temple <b>5:00 AM - 110:00 PM</b>. The temple is open throughout the week and the timings remain unchanged every day.
+        </p>
+    </ul>
+      <h2>How to reach Someshwar temple?</h2>
+      <h4>Nearest Airport:</h4>
+      <p> Nashik - 15kms.</p>
+      <h4>By Rail:</h4>
+      <p>Mumbai to NAshik is 150 kms by train on western railway route. NAshik trains are available on Western Railway on every 5 minutes.</p>
+      <h4>By Road: </h4>
+      <p>  nashik  - MunmBai pune nashik  highway.</p>
+       
+        <h2>
+          <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119957.2913483781!2d73.58385184335938!3d20.0225551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb985ff32cdd%3A0x29b768633c516692!2sShri%20Someshwar%20Mahadev%20Mandir!5e0!3m2!1sen!2sin!4v1685161013974!5m2!1sen!2sin" width="75%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><p>Find the perfect hotel near someshwar temple:</p></h2>
+      <h3>Hotels are available in this yard</h3>
+      <div>
+        <h3>Book a Hotel</h3>
+        <a href="https://www.booking.com/searchresults.en-gb.html?ss=Someshwar+Temple&ssne=Someshwar+Temple&ssne_untouched=Someshwar+Temple&label=Low_CPA_English_EN_IN_21456997585-tM10rISLE1Z8FObvwP_fmgS640938722156%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atidsa-64415617705%3Alp1007788%3Ali%3Adec%3Adm%3Aag21456997585%3Acmp339861625&aid=318615&lang=en-gb&sb=1&src_elem=sb&src=landmark&dest_id=900123770&dest_type=landmark&group_adults=2&no_rooms=1&group_children=0&sb_travel_purpose=leisure"></a>
+          <button class="book-now-button">Book Now</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script>
+    const slideshow = document.querySelector('.slideshow');
+    const slides = Array.from(document.querySelectorAll('.slide'));
+
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.classList.add('active');
+        } else {
+          slide.classList.remove('active');
+        }
+      });
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    function previousSlide() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    // Auto-play the slideshow
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds (adjust as needed)
+  </script>
+</body>
+</html>
